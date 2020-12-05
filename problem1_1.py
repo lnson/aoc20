@@ -2,7 +2,7 @@ INPUT_FILE = 'data/problem1.txt'
 
 
 def read_input():
-    with open('problem1.txt', 'r') as input_file:
+    with open(INPUT_FILE, 'r') as input_file:
         return [int(line) for line in input_file]
 
 
